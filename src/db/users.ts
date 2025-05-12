@@ -24,3 +24,7 @@ export const deleteUser = (id: string): boolean => {
     users.splice(index, 1);
     return true;
 };
+
+export const resetUsers = (): void => {
+    users.length = 0;
+};
