@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "webpack",
     "start:dev": "ts-node-dev src/index.ts",
     "start:balancer": "ts-node-dev src/balancer.ts",
     "start:prod": "npm run build && node dist/index.js",
@@ -35,7 +35,8 @@
     "ts-jest": "^29.2.5",
     "ts-loader": "^9.5.1",
     "ts-node-dev": "^2.0.0",
-    "typescript": "^5.8.3"
+    "typescript": "^5.8.3",
+    "webpack-cli": "^6.0.1"
   },
   "dependencies": {
     "dotenv": "^16.5.0",
