@@ -7,8 +7,8 @@ npm run start:dev
 **Start in Production Mode:**
 npm run start:prod
 
-**Start multiple instances:**
-npm run start:multi
+**Start balancer:**
+npm run start:balancer
 
 **Run tests:**
 npm test

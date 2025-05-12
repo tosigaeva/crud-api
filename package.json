@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "start:dev": "ts-node-dev src/index.ts",
     "build": "tsc",
-    "start:prod": "npm run build && node dist/index.js"
+    "start:dev": "ts-node-dev src/index.ts",
+    "start:balancer": "ts-node-dev src/balancer.ts",
+    "start:prod": "npm run build && node dist/index.js",
+    "test": "jest"
   },
   "keywords": [],
   "author": "",

@@ -28,3 +28,8 @@ export const deleteUser = (id: string): boolean => {
 export const resetUsers = (): void => {
     users.length = 0;
 };
+
+export const sync = (_users: User[])=> {
+    resetUsers();
+    _users.forEach(user => users.push(user));
+}
